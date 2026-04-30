@@ -4,7 +4,6 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
-permissions: {}
 concurrency:
   group: production-deploy
   cancel-in-progress: false
